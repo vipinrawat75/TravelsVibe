@@ -1,11 +1,16 @@
 /* Add this CSS code for responsive design */
 @media (max-width: 480px) {
     .hero_section .hero_text h1 {
-        font-size: 36px;
+        font-size: 22px;
+    }
+
+    .image-container {
+    height: 240px;
     }
 
     .hero_section .hero_text p {
-        font-size: 14px;
+        font-size: 16px;
+        padding: 3rem;
     }
 
     .popupForm {
@@ -17,6 +22,10 @@
         gap: 1rem;
     }
 
+    .category .category_heading h2,
+    .destination .destination_heading {
+        font-size: 22px
+    }
     .destination_cards {
         width: 100%;
     }
@@ -55,7 +64,7 @@
     }
 
     #navbar #logo {
-        height: 2rem;
+        height: 3.7rem;
     }
 
     nav>div {
@@ -82,6 +91,10 @@
 
     body #navbar #menu button {
         display: none;
+    }
+
+    .image-container {
+    height: 320px;
     }
 
     .overlay-text {
@@ -115,8 +128,8 @@
 
     .hero_section .hero_text h1 {
         width: 100%;
-        font-size: 48px !important;
-        line-height: 3.5rem;
+        font-size: 22;
+        line-height: 2rem;
     }
 
     .popupForm {
@@ -150,11 +163,12 @@
         display: none;
     }
 
-    .category .category_heading,
+    .category .category_heading h2,
     .destination .destination_heading {
         text-align: center !important;
+        font-size: 26px
     }
-
+ 
     .category,
     .destination {
         padding: 1rem;
@@ -334,6 +348,10 @@
         display: flex;
     }
 
+    .image-container {
+    height: 420px;
+    }
+
     .hero_section .hero_image {
         height: 90%;
         scale: 0.8;
@@ -346,6 +364,10 @@
         padding: 1rem 1rem;
         justify-content: center;
         gap: 1rem;
+    }
+
+    .hero_section .hero_text h1{
+        font-size: 28;
     }
 
     .hero_section .hero_text p {
@@ -411,6 +433,10 @@
         padding: 1rem 2rem;
     }
 
+    .image-container {
+    height: 550px;
+    }
+
     .hero_section {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -452,5 +478,6 @@
     .benifits {
         gap: 5rem;
     }
+
 
 }

@@ -1,14 +1,14 @@
 const imageUrls = [
-    'https://i.postimg.cc/j5J0GnV2/Andaman-and-Nicobar.webp',
-    'https://i.postimg.cc/q7qdxZj8/Best-Beaches-in-North-Goa-1200x900.webp',
-    'https://i.postimg.cc/0ycsmqdk/darjeeling.webp',
-    'https://i.postimg.cc/3xKhdwGf/Himachal.webp',
-    'https://i.postimg.cc/Xqchbwsj/kashmir.webp',
-    'https://i.postimg.cc/xdhByjk2/kerala.webp',
-    'https://i.postimg.cc/6qrsQspN/rajasthan-tourism-02.webp',
-    'https://i.postimg.cc/pLXNP6Ng/Taj-mahal-Timelapse.jpg',
-    'https://i.postimg.cc/rwhBsNMz/UKspritual.webp',
-    'https://i.postimg.cc/T2rBg6fz/Uttrakhand.webp'
+    'https://res.cloudinary.com/dtfhum2vl/image/upload/v1774602886/home_pic_1_mq8zpt.webp',
+    'https://res.cloudinary.com/dtfhum2vl/image/upload/v1774602886/home_pic_4_bjqolh.webp',
+    'https://res.cloudinary.com/dtfhum2vl/image/upload/v1774602886/home_pic_2_izkaet.webp',
+    'https://res.cloudinary.com/dtfhum2vl/image/upload/v1774602886/home_pic_3_ujozov.webp',
+    // 'https://i.postimg.cc/Xqchbwsj/kashmir.webp',
+    // 'https://i.postimg.cc/xdhByjk2/kerala.webp',
+    // 'https://i.postimg.cc/6qrsQspN/rajasthan-tourism-02.webp',
+    // 'https://i.postimg.cc/pLXNP6Ng/Taj-mahal-Timelapse.jpg',
+    // 'https://i.postimg.cc/rwhBsNMz/UKspritual.webp',
+    // 'https://i.postimg.cc/T2rBg6fz/Uttrakhand.webp'
 
 ];
 

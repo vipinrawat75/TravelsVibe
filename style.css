@@ -200,7 +200,7 @@ body #navbar #menu button:hover {
 .image-container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     overflow: hidden;
 }
 
@@ -228,7 +228,7 @@ body #navbar #menu button:hover {
     margin-top: -2rem;
 }
 
-.overlay-text>h5 {
+/* .overlay-text>h5 {
     font-weight: 400;
     font-family: "Oswald";
     font-optical-sizing: auto;
@@ -237,7 +237,7 @@ body #navbar #menu button:hover {
 }
 
 .overlay-text>h1 {
-    font-size: 20vw;
+    font-size: 5vw;
     padding: 1rem;
     margin-bottom: 5rem;
     font-family: "Oswald";
@@ -257,7 +257,7 @@ body #navbar #menu button:hover {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-}
+} */
 
 .images {
     position: absolute;
@@ -267,7 +267,7 @@ body #navbar #menu button:hover {
     bottom: 0;
 }
 
-.image1,
+.image1, 
 .image2 {
     position: absolute;
     top: 0;
@@ -278,7 +278,7 @@ body #navbar #menu button:hover {
     background-position: center;
     transition: opacity 1.5s ease-in-out;
     /* Smooth fade effect */
-}
+} */
 
 .image1::after,
 .image2::after {
@@ -319,14 +319,14 @@ body #navbar #menu button:hover {
 
 }
 
-.hero_section .hero_text h4 {
+.hero_section .hero_text h2 {
     text-transform: uppercase;
     color: #DF6951;
 }
 
 .hero_section .hero_text h1 {
-    font-size: 76px;
-    line-height: 5rem;
+    font-size: 32px;
+    line-height: 3rem;
     font-family: "Volkhov", serif;
 }
 
@@ -347,8 +347,8 @@ body #navbar #menu button:hover {
 }
 
 .hero_section .hero_text .hero_buttons button:first-child {
-    background: #F1A501;
-    color: black;
+    background: #DF6951;
+    color: #FFF1DA;
     padding: 1rem 2rem;
     width: 30%;
     border-radius: 5px;
@@ -358,7 +358,7 @@ body #navbar #menu button:hover {
 }
 
 .hero_section .hero_text .hero_buttons button:first-child:hover {
-    background: #DF6951;
+    background: #F1A501;
     color: #FFF1DA;
 
 }
@@ -417,11 +417,11 @@ body #navbar #menu button:hover {
     color: #5E6282;
 }
 
-.category .category_heading h1,
-.destination .destination_heading h1 {
+.category .category_heading h2,
+.destination .destination_heading h2 {
     text-transform: capitalize;
     font-family: "Volkhov", serif;
-    font-size: 48px;
+    font-size: 32px;
 }
 
 .category .category_cards {
@@ -565,15 +565,13 @@ body #navbar #menu button:hover {
     padding-top: 4rem;
 }
 
-.benifits .benifit_text h1 {
+
+.benifits .benifit_text h2 {
+    color: black;
+    font-weight: 600;
     text-transform: capitalize;
     font-family: "Volkhov", serif;
-    font-size: 48px;
-}
-
-.benifits .benifit_text h4 {
-    color: #5E6282;
-    font-weight: 600;
+    font-size: 28px;
 }
 
 .benifits .benifit_text p {
@@ -673,15 +671,16 @@ body #navbar #menu button:hover {
     margin-bottom: 10px;
 }
 
-.footer-section h3 {
+/* .footer-section h3 {
     font-size: 18px;
     color: black;
     margin-bottom: 10px;
-}
+} */
 
 .footer-section p {
     font-size: 14px;
-    color: #5E6282;
+    color: black;
+    margin-bottom: 10px;
 }
 
 .footer-section ul {
@@ -696,8 +695,9 @@ body #navbar #menu button:hover {
 
 .footer-section ul li a {
     text-decoration: none;
-    color: #5E6282;
+    color: black;
     transition: color 0.3s;
+    font-size: 14px
 }
 
 .footer-section ul li a:hover {
