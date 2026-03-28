@@ -78,6 +78,7 @@ button {
     background: #F1A501;
     font-size: 1.2rem;
     font-weight: 600;
+    color: white;
 
 }
 
@@ -174,7 +175,7 @@ body #navbar #menu a:hover {
 
 body #navbar button {
     padding: 0.5rem 2rem;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
     background: none;
     transition: all 0.3s ease;
@@ -183,7 +184,7 @@ body #navbar button {
 
 body #navbar #menu button {
     padding: 0.5rem 2rem;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
     background: none;
     transition: all 0.3s ease;
@@ -327,12 +328,12 @@ body #navbar #menu button:hover {
 .hero_section .hero_text h1 {
     font-size: 32px;
     line-height: 3rem;
-    font-family: "Volkhov", serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero_section .hero_text h1 span {
     position: relative;
-    font-family: "Volkhov", serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero_section .hero_text h1 span img {
@@ -420,8 +421,8 @@ body #navbar #menu button:hover {
 .category .category_heading h2,
 .destination .destination_heading h2 {
     text-transform: capitalize;
-    font-family: "Volkhov", serif;
-    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
 }
 
 .category .category_cards {
@@ -570,7 +571,7 @@ body #navbar #menu button:hover {
     color: black;
     font-weight: 600;
     text-transform: capitalize;
-    font-family: "Volkhov", serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 28px;
 }
 

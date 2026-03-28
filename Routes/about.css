@@ -10,8 +10,9 @@ header {
     margin: 20px auto;
 }
 
-h1 {
-    color: #333;
+.container h1{
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .about-section {
@@ -39,6 +40,20 @@ h1 {
     margin-bottom: 20px;
 }
 
+.trust h2{
+    margin-bottom: 20px;
+    margin-top: 40x;
+}
+
+.why-choose-us li{
+    line-height: 2;
+}
+
+.trust ul{
+    margin-bottom: 40px;
+}
+
+
 .mission {
     background-color: #fff;
     padding: 20px;
@@ -52,7 +67,8 @@ h1 {
 
 footer {
     background-color: #333;
-    color: white;
+    color: black
+    ;
     text-align: center;
     padding: 10px;
 }
