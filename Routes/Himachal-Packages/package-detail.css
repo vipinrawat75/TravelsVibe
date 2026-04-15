@@ -70,8 +70,7 @@ main .hero-image h1 {
 }
 
 .about-destination h1 {
-    color: #5E6282;
-    font-size: 1.4rem;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -83,17 +82,19 @@ main .hero-image h1 {
 
 .about-destination p {
     text-align: left;
-    font-size: .9rem;
+    font-size: 16px;
     padding: .2rem;
 }
 
 .about-destination h3 {
-    font-size: 1.7rem;
+    font-size: 26px;
     font-family: "volkhov";
 }
 
 .why_destination {
     width: 100%;
+    line-height: 2;
+    font-size: 16px;
 }
 
 .travel-plan {
@@ -140,7 +141,7 @@ main .hero-image h1 {
     font-size: 2rem;
 }
 
-.travel-plan .day-wise-details h4 {
+.travel-plan .day-wise-details h3 {
     color: #5E6282;
 }
 
