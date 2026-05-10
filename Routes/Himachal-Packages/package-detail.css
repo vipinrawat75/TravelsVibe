@@ -183,6 +183,67 @@ main .hero-image h1 {
     font-family: 'Volkhov';
 }
 
+/* .price-table{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    border-collapse:collapse;
+    background:#fff;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+
+.price-table thead{
+    background:blue;
+    }
+
+.price-table thead th{
+    color:#fff;
+    padding:22px 15px;
+    font-size:16px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    border-right:1px solid rgba(255,255,255,0.2);
+    }
+
+.price-table thead th:last-child{
+    border-right:none;
+    }
+
+.price-table tbody td{
+    padding:24px 20px;
+    text-align:center;
+    font-size:18px;
+    color:#333;
+    border-top:1px solid #ddd;
+    }
+
+.price-table tbody tr:nth-child(even){
+    background:#f9f9f9;
+    }
+
+.season{
+    width:8%;
+    }
+
+.period{
+    width:30%;
+    }
+
+.price{
+    width:10%;
+    font-weight:bold;
+    }
+
+    @media(max-width:768px){
+      .price-table thead th,
+      .price-table tbody td{
+        padding:15px 10px;
+        font-size:14px;
+      }
+    } */
+
+
 table {
     width: 100%;
     border-collapse: collapse;
