@@ -183,65 +183,56 @@ main .hero-image h1 {
     font-family: 'Volkhov';
 }
 
-/* .price-table{
-    width:100%;
+
+
+
+
+.season-pricing-section{
+    width:90%;
     max-width:1200px;
-    margin:auto;
-    border-collapse:collapse;
-    background:#fff;
-    box-shadow:0 2px 10px rgba(0,0,0,0.1);
-    }
-    
+    margin:40px auto;
+    font-family:Arial, sans-serif;
+    border:1px solid #d8d8d8;
+}
 
-.price-table thead{
-    background:blue;
-    }
-
-.price-table thead th{
+.season-pricing-header{
+    display:flex;
+    background:#1532a3;
     color:#fff;
-    padding:22px 15px;
-    font-size:16px;
-    letter-spacing:2px;
     text-transform:uppercase;
-    border-right:1px solid rgba(255,255,255,0.2);
-    }
+    letter-spacing:3px;
+    font-size:14px;
+    font-weight:600;
+}
 
-.price-table thead th:last-child{
-    border-right:none;
-    }
+.season-pricing-row{
+    display:flex;
+    background:#efe5d0;
+    border-top:1px solid #d8d8d8;
+}
 
-.price-table tbody td{
-    padding:24px 20px;
+.season-column{
+    width:18%;
+    padding:22px 15px;
     text-align:center;
-    font-size:18px;
-    color:#333;
-    border-top:1px solid #ddd;
-    }
+    border-right:1px solid #d8d8d8;
+}
 
-.price-table tbody tr:nth-child(even){
-    background:#f9f9f9;
-    }
+.period-column{
+    width:57%;
+    padding:22px 15px;
+    text-align:center;
+    border-right:1px solid #d8d8d8;
+}
 
-.season{
-    width:8%;
-    }
+.price-column{
+    width:25%;
+    padding:22px 15px;
+    text-align:center;
+}
 
-.period{
-    width:30%;
-    }
 
-.price{
-    width:10%;
-    font-weight:bold;
-    }
 
-    @media(max-width:768px){
-      .price-table thead th,
-      .price-table tbody td{
-        padding:15px 10px;
-        font-size:14px;
-      }
-    } */
 
 
 table {
@@ -437,4 +428,22 @@ ul>li {
         grid-template-columns: 1fr;
     }
 
+/* Prizes chart */
+
+    .season-pricing-header{
+        font-size:10px;
+        
+    }
+
+    .season-pricing-row{
+        font-size:13px;
+    }
+
+    .season-column,
+    .period-column,
+    .price-column{
+        padding:16px 10px;
+    }
+
 }
+
