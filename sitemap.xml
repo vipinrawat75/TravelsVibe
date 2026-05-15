@@ -24,7 +24,7 @@
 <changefreq>monthly</changefreq>
 </url>
 
-<!-- Himachal Packages -->
+<!-- Himachal Packages (13 pages) -->
 <url>
 <loc>https://www.travelsvibe.co.in/Routes/Himachal-Packages/Himachal-Paredesh.html</loc>
 <priority>0.8</priority>
@@ -91,7 +91,7 @@
 <changefreq>weekly</changefreq>
 </url>
 
-<!-- Uttarakhand Packages -->
+<!-- Uttarakhand Packages (9 pages) -->
 <url>
 <loc>https://www.travelsvibe.co.in/Routes/Uttrakhand-Packages/uttrakhand-holiday.html</loc>
 <priority>0.8</priority>
@@ -138,7 +138,7 @@
 <changefreq>weekly</changefreq>
 </url>
 
-<!-- Uttarakhand Spiritual Packages -->
+<!-- Uttarakhand Spiritual (9 pages) -->
 <url>
 <loc>https://www.travelsvibe.co.in/Routes/Uttrakhand-Spritual-Packages/Uttarakhand-Spritual.html</loc>
 <priority>0.8</priority>
@@ -185,7 +185,7 @@
 <changefreq>weekly</changefreq>
 </url>
 
-<!-- Kashmir Packages -->
+<!-- Kashmir Packages (9 pages) -->
 <url>
 <loc>https://www.travelsvibe.co.in/Routes/Kashmir-Packages/kashmir.html</loc>
 <priority>0.8</priority>
@@ -232,7 +232,7 @@
 <changefreq>weekly</changefreq>
 </url>
 
-<!-- Rajasthan Packages -->
+<!-- Rajasthan Packages (12 pages) -->
 <url>
 <loc>https://www.travelsvibe.co.in/Routes/Rajasthan-Packages/rajasthan.html</loc>
 <priority>0.8</priority>
@@ -301,7 +301,7 @@
 <changefreq>weekly</changefreq>
 </url>
 
-<!-- Andaman Packages -->
+<!-- Andaman Packages (13 pages) -->
 <url>
 <loc>https://www.travelsvibe.co.in/Routes/A-and-N-Packages/andaman.html</loc>
 <priority>0.8</priority>
@@ -368,142 +368,10 @@
 <changefreq>weekly</changefreq>
 </url>
 
-<!-- Darjeeling Packages -->
+<!-- Darjeeling Packages (6 pages) -->
 <url>
 <loc>https://www.travelsvibe.co.in/Routes/Darjeeling-Packages/darjeeling.html</loc>
 <priority>0.8</priority>
 <changefreq>weekly</changefreq>
 </url>
 <url>
-<loc>https://www.travelsvibe.co.in/Routes/Darjeeling-Packages/01_queen-of-hill-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Darjeeling-Packages/02_east-himalayas-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Darjeeling-Packages/04_great-himalayas-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Darjeeling-Packages/05_list-of-hill-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Darjeeling-Packages/06_buddhist-heaven-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-
-<!-- Kerala Packages -->
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/kerela.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/01_kerala-backwater-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/02_munnar-houseboat-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/03_kerala-backwater-munnar-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/04_munnar-alleppey-honeymoon-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/05_munnar-tour-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/06_munnar-honeymoon-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/07_kovalam-kanyalumari-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/08_kumarakon-backwater-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/09_munnar-thekkady-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/10_kovalam-alleppey-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/11_tour-in-kerela-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/12_munnar-alleppey-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/13_kerala-hillstation-backwater-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/14_kerala-honeyMoon-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/15_kerala-holiday-trip-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/16_kerala-romantic-tour-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/17_kerala-wildlife-&-beach-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/18_kerala-beach-tour-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/19_increadible-kerala-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://www.travelsvibe.co.in/Routes/Kerela-Packages/20_holiday-in-kerala-package.html</loc>
-<priority>0.8</priority>
-<changefreq>weekly</changefreq>
-</url>
-</urlset>
