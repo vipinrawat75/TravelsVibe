@@ -84,6 +84,7 @@ main .hero-image h1 {
     text-align: left;
     font-size: 16px;
     padding: .2rem;
+    text-align: justify;
 }
 
 .about-destination h3 {
