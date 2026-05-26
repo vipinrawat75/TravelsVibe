@@ -1,6 +1,18 @@
 {
   "rewrites": [
     {
+      "source": "/himachal-tour-package",
+      "destination": "/Routes/Himachal-Packages/Himachal-Paredesh.html"
+    },
+    {
+      "source": "/manali-tour-package",
+      "destination": "/Routes/Himachal-Packages/Manali.html"
+    },
+    {
+      "source": "/uttarakhand-tour-package",
+      "destination": "/Routes/Uttarakhand-Packages/Uttarakhand.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
