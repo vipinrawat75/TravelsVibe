@@ -3,6 +3,10 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    },
+    {
+      "source": "/himachal-tour-package",
+      "destination": "/Routes/Himachal-Packages/Himachal-Paredesh.html"
     }
   ]
 }
