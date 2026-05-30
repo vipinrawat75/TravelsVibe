@@ -6,11 +6,8 @@
 <script>
   var path = window.location.pathname;
   if (path.endsWith('/index.html')) {
-    // /index.html remove karke clean URL pe bhejo
+    // Sirf /index.html remove karo, same page pe raho
     window.location.replace(path.replace('/index.html', '/'));
-  } else {
-    // Koi aur 404 ho toh HOME pe bhejo
-    window.location.replace('/');
   }
 </script>
     
