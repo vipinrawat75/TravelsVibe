@@ -2,145 +2,65 @@
 <html lang="en">
 
 <head>
-
-
-<!-- Redirect index.html to / -->
-<script>
-  if (window.location.pathname === '/index.html' || 
-      window.location.pathname === '/home.html' ||
-      window.location.pathname === '/index' ||
-      window.location.pathname === '/home') {
-    window.location.replace('https://www.travelsvibe.co.in/');
-  }
-</script>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Travel Vibes | Top Destinations - Himachal, Uttarakhand, Kashmir, Rajasthan, Goa, Andaman, Darjeeling, Kerala
+    </title>
     <meta name="description"
-        content="Book your dream trip with Traves Vibe! Explore Himachal, Uttarakhand, Kashmir, Goa, Rajasthan, Darjeeling & Kerala with customized packages for unforgettable adventures.">
+        content="Explore the best travel packages for Himachal Pradesh, Uttarakhand, Kashmir, Rajasthan, Goa, Andaman & Nicobar, Darjeeling, and Kerala. Book your dream vacation with Travel Vibes today!">
     <meta name="keywords"
-        content="travel agency, tour packages, Himachal, Uttarakhand, Kashmir, Goa, Rajasthan, Darjeeling, Kerala, adventure travel, vacation planning">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="content-language" content="en">
-    <meta name="geo.region" content="IN">
-    <meta property="og:title" content="Travels Vibe | Tour and Travel Agency">
+        content="Himachal packages, Uttarakhand packages, Kashmir packages, Rajasthan packages, Goa packages, Andaman and Nicobar packages, Darjeeling packages, Kerala packages, travel deals, vacation packages, travel vibes">
+    <meta name="author" content="Travel Vibes">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title"
+        content="Travel Vibes | Top Destinations - Himachal, Uttarakhand, Kashmir, Rajasthan, Goa, Andaman, Darjeeling, Kerala">
     <meta property="og:description"
-        content="Book your dream travel destination with Travels Vibe! Explore popular destinations like Himachal, Uttarakhand, Kashmir, Goa, Rajasthan, Darjeeling, and Kerala.">
-    <meta property="og:url" content="https://www.travelsvibe.co.in/">
+        content="Explore the best travel packages for Himachal Pradesh, Uttarakhand, Kashmir, Rajasthan, Goa, Andaman & Nicobar, Darjeeling, and Kerala. Book your dream vacation with Travel Vibes today!">
     <meta property="og:type" content="website">
 
+    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Travels Vibe | Tour and Travel Agency">
+    <meta name="twitter:title"
+        content="Travel Vibes | Top Destinations - Himachal, Uttarakhand, Kashmir, Rajasthan, Goa, Andaman, Darjeeling, Kerala">
     <meta name="twitter:description"
-        content="Book your dream travel destination with Travel Vibes! Explore popular destinations like Himachal, Uttarakhand, Kashmir, Goa, Rajasthan, Darjeeling, and Kerala.">
+        content="Explore the best travel packages for Himachal Pradesh, Uttarakhand, Kashmir, Rajasthan, Goa, Andaman & Nicobar, Darjeeling, and Kerala. Book your dream vacation with Travel Vibes today!">
 
-    <link rel="canonical" href="https://www.travelsvibe.co.in/">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../Assets/Logo's/favicon-32x32.png" type="image/x-icon">
 
-    <link rel="shortcut icon" href="./Assets/Logo's/favicon-32x32.png" type="image/x-icon">
-
-    <title>Travels Vibe | Best Tour Packages in India</title>
- 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "TravelAgency",
-        "name": "Travels Vibe",
-        "description": "Book your dream travel destination with Travels Vibe! Explore popular destinations like Himachal, Uttarakhand, Kashmir, Goa, Rajasthan, Darjeeling, and Kerala.",
-        "url": "https://www.travelsvibe.co.in/",
-        "logo": "https://www.travelsvibe.co.in/Assets/Travel-vibes-logo.png",
-        "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91 73106 51249",
-        "contactType": "customer service"
-        },
-        "sameAs": [
-        "https://www.facebook.com/travelsvibe",
-        "https://www.instagram.com/travelsvibe",
-        "https://twitter.com/travelsvibe"
-        ]
-    }
-    </script>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-
-    <link rel="preload" href="https://i.postimg.cc/j5J0GnV2/Andaman-and-Nicobar.webp" as="image">
-    <link rel="preload" href="https://i.postimg.cc/q7qdxZj8/Best-Beaches-in-North-Goa-1200x900.webp" as="image">
-    <link rel="preload" href="https://i.postimg.cc/0ycsmqdk/darjeeling.webp" as="image">
-    <link rel="preload" href="https://i.postimg.cc/3xKhdwGf/Himachal.webp" as="image">
-    <link rel="preload" href="https://i.postimg.cc/Xqchbwsj/kashmir.webp" as="image">
-    <link rel="preload" href="https://i.postimg.cc/xdhByjk2/kerala.webp" as="image">
-    <link rel="preload" href="https://i.postimg.cc/6qrsQspN/rajasthan-tourism-02.webp" as="image">
-    <link rel="preload" href="https://i.postimg.cc/pLXNP6Ng/Taj-mahal-Timelapse.jpg" as="image">
-    <link rel="preload" href="https://i.postimg.cc/rwhBsNMz/UKspritual.webp" as="image">
-    <link rel="preload" href="https://i.postimg.cc/T2rBg6fz/Uttrakhand.webp" as="image">
-
-    <!-- Lordicon Script -->
-    <script src="https://cdn.lordicon.com/lordicon.js"></script>
-
-        <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZQNZ0L92D"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-VZQNZ0L92D');
-    </script>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <link rel="stylesheet" href="destination.css">
 </head>
 
-<body>
-    <div id="main_page">
-        <img class="bg" src="./Assets/Backgrounds/Decore.svg" alt="Himachla" loading="eager">
-        <nav id="navbar">
-            <div>
-                <img id="logo" src="./Assets/Travel-vibes-logo.png" alt="TravelAgencyLogo">
-                <button onclick="window.location.href=`tel:+917310651249`">Call Now</button>
-            </div>
-            <div id="menu">
-                <a href="index.html">Home</a>
-                <a href="./routes/destination.html">Destination</a>
-                <a href="./routes/Booking.html">Booking</a>
-                <a href="./routes/AboutUs.html">About Us</a>
-                <button onclick="window.location.href=`tel:+917310651249`">Call Now</button>
-            </div>
-        </nav>
-        <div class="image-container">
-            <div class="images">
-                <div class="image1"></div>
-                
-                <div class="image2"></div>
-            </div>
+<body style="background-color: white;">
+    <nav id="navbar">
+        <div>
+            <img id="logo" src="/Assets/Travel-vibes-logo.png" alt="TravelAgencyLogo">
+            <button onclick="window.location.href=`tel:+917310651249`">Call Now</button>
         </div>
-
-
-        <div class="hero_section">
-            <div class="hero_text">
-                <h1>Customized India Tour packages– Plan a Unique and Personalized Travel Experience Across India</h1>
-                <!-- <h2>
-                    Travel, <span>enjoy <img src="./Assets/Backgrounds/UnderLine Decore.svg" alt=""></span><br>
-                    and live a new <br>
-                    and full life
-                </h2> -->
-                <p>Discover customized India tour packages including Shimla-Manali honeymoon tours, Rajasthan family holidays and Kerala vacation packages. Plan your perfect trip with expert travel guidance, best hotels and unforgettable travel experiences across India.</p>
-                <div class="hero_buttons">
-                    <button onclick="window.location.href=`./routes/destination.html` ">Find More</button>
-                    <button onclick="window.location.href=`./routes/Booking.html` ">Book Trip</button>
-                </div>
-            </div>
-            <div class="hero_image">
-                <img src="./Assets/Images/Girl On Bag Image.svg" alt="">
-            </div>
-
+        <div id="menu">
+            <a href="../index.html">Home</a>
+            <a href="../routes/destination.html">Destination</a>
+            <a href="../routes/Booking.html">Booking</a>
+            <a href="../routes/AboutUs.html">About Us</a>
+            <button onclick="window.location.href=`tel:+917310651249`">Call Now</button>
         </div>
+    </nav>
+
+    <div class="destination-heading">
+        <h1>Best Tour Destinations in India – Himachal, Uttarakhand, Kashmir & More</h1>
+        <p>Explore the best tour destinations in India with Travels Vibe. From the snow-covered mountains of Himachal Pradesh and the spiritual beauty of Uttarakhand to the romantic valleys of Kashmir and the beaches of Goa, we offer the best tour packages for couples, families and adventure lovers. Choose your favourite destination and book your trip with affordable prices and customized travel plans.</p>
     </div>
-    <div class="destination">
-        <div class="destination_heading">
-            <h2>Popular Travel Destinations</h2>
-        </div>
-        <div class="destination_cards">
+
+    <main>
+         <div class="destination_cards">
             <div class="destination_card Himachal-Paredesh">
-                <a href="./routes/himachal-packages/Himachal-Pradesh.html">
+                 <a href="./himachal-packages/Himachal-Pradesh.html">
                     <img src="https://i.postimg.cc/SQwfG2NR/Himachal.webp" loading="lazy">
                     <div class="destination_details">
                         <h3>Himachal</h3>
@@ -154,7 +74,7 @@
                 </a>
             </div>
             <div class="destination_card uttrakhand">
-                <a href="./routes/Uttrakhand-Packages/uttarakhand-holiday.html">
+                <a href="./Uttrakhand-Packages/uttarakhand-holiday.html">
                     <img src="https://i.postimg.cc/g24h1ndv/Uttrakhand.webp" loading="lazy">
                     <div class="destination_details">
                         <h3>Uttarakhand</h3>
@@ -168,7 +88,7 @@
                 </a>
             </div>
             <div class="destination_card uttrakhand-spritual">
-                <a href="./routes/Uttrakhand-Spritual-Packages/Uttarakhand-Spritual.html">
+                <a href="./Uttrakhand-Spritual-Packages/Uttarakhand-Spritual.html">
                     <img src="https://i.postimg.cc/Z5J3frkb/UKspritual.webp" loading="lazy">
                     <div class="destination_details">
                         <h3>Char Dham Yatra</h3>
@@ -182,10 +102,10 @@
                 </a>
             </div>
             <div class="destination_card kashmir">
-                <a href="./routes/Kashmir-Packages/kashmir.html">
+                <a href="./Kashmir-Packages/kashmir.html">
                     <img src="https://i.postimg.cc/1t8DGPkD/kashmir.webp" loading="lazy">
                     <div class="destination_details">
-                        <h3>Kashmir</h3>
+                        <h2>Kashmir</h2>
                         <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                     style="fill: rgba(0, 0, 0, 1);">
                                     <path
@@ -197,10 +117,10 @@
                 </a>
             </div>
             <div class="destination_card rajesthan">
-                <a href="./routes/Rajasthan-Packages/rajasthan.html">
+                <a href="./Rajasthan-Packages/rajasthan.html">
                     <img src="https://i.postimg.cc/yx99GjYd/rajasthan-tourism-02.webp" loading="lazy">
                     <div class="destination_details">
-                        <h3>Rajasthan</h3>
+                        <h2>Rajasthan</h2>
                         <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                     style="fill: rgba(0, 0, 0, 1);">
                                     <path
@@ -212,10 +132,10 @@
                 </a>
             </div>
             <div class="destination_card goa">
-                <a href="./routes/Goa-Packages/goa-package.html">
+                <a href="./Goa-Packages/goa-package.html">
                     <img src="https://i.postimg.cc/RVKQpSNR/Best-Beaches-in-North-Goa-1200x900.webp" loading="lazy">
                     <div class="destination_details">
-                        <h3>Goa</h3>
+                        <h2>Goa</h2>
                         <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                     style="fill: rgba(0, 0, 0, 1);">
                                     <path
@@ -227,10 +147,10 @@
                 </a>
             </div>
             <div class="destination_card andaman">
-                <a href="./routes/A-and-N-Packages/andaman.html">
+                <a href="./A-and-N-Packages/andaman.html">
                     <img src="https://i.postimg.cc/bwR08m0S/Andaman-and-Nicobar.webp" loading="lazy">
                     <div class="destination_details">
-                        <h3>Andaman and Nicobar</h3>
+                        <h2>Andaman and Nicobar</h2>
                         <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                     style="fill: rgba(0, 0, 0, 1);">
                                     <path
@@ -242,10 +162,10 @@
                 </a>
             </div>
             <div class="destination_card darjeeling">
-                <a href="./routes/Darjeeling-Packages/darjeeling.html">
+                <a href="./Darjeeling-Packages/darjeeling.html">
                     <img src="https://i.postimg.cc/YC7NJ5Fw/darjeeling.webp" loading="lazy">
                     <div class="destination_details">
-                        <h3>Darjeeling</h3>
+                        <h2>Darjeeling</h2>
                         <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                     style="fill: rgba(0, 0, 0, 1);">
                                     <path
@@ -257,10 +177,10 @@
                 </a>
             </div>
             <div class="destination_card kerela">
-                <a href="./routes/Kerela-Packages/kerela.html">
+                <a href="./Kerela-Packages/kerela.html">
                     <img src="https://i.postimg.cc/Pq3mvNRt/kerala.webp" loading="lazy">
                     <div class="destination_details">
-                        <h3>Kerala</h3>
+                        <h2>Kerala</h2>
                         <p><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                                     style="fill: rgba(0, 0, 0, 1);">
                                     <path
@@ -272,73 +192,9 @@
                 </a>
             </div>
         </div>
-        <button onclick="window.location.href=`./routes/destination.html` ">Explore More</button>
-    </div>
-    <!-- <div class="category">
-        <div class="category_heading">
-            <h4>category</h4>
-            <h1>we offer best service</h1>
-        </div>
-        <div class="category_cards">
-            <div class="card">
-                <img src="./Assets/Logo's/Sattelite.png" alt="">
-                <h4>calculated weather</h4>
-                <p>Built Wicket longer admire do barton vanity itself do in it.</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/Logo's/Flight.png" alt="">
-                <h4>Best Flight</h4>
-                <p>Engrossed listening. Park gate sell they west hard for the.</p>
-            </div>
-            <div class="card">
-                <img src="./Assets/Logo's/Event.png" alt="">
-                <h4>Local Event</h4>
-                <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
-            </div>
-            <div class="card">
-                <img src="./Assets/Logo's/Customization.png" alt="">
-                <h4>Customization</h4>
-                <p>We deliver outsourced
-                    aviation services for
-                    military customers</p>
-            </div>
-        </div>
-    </div> -->
-    <div class="benifits">
-        <div class="benifit_text">
-            <h2>Plan Your Dream Vacation in Just 3 Easy Steps</h2>
-            <div class="three_steps">
-                <lord-icon src="https://cdn.lordicon.com/dhmavvpz.json" trigger="hover"
-                    colors="primary:#000000,secondary:#ffc738" style="width:60px;height:60px">
-                </lord-icon>
-                <div>
-                    <p><b>Choose Destination</b></br>
-                    Select your dream spot from our handpicked list of breathtaking destinations.</p>
-                </div>
-            </div>
-            <div class="three_steps">
-                <lord-icon src="https://cdn.lordicon.com/opqmrqco.json" trigger="morph" state="morph-destroyed"
-                    colors="primary:#000000,secondary:#ffc738,tertiary:#f15a2b" style="width:60px;height:60px">
-                </lord-icon>
-                <div>
-                    <p><b>Customize and Make Payment</b></br>
-                    Personalize your trip and enjoy secure, hassle-free payment options.</p>
-                </div>
-            </div>
-            <div class="three_steps">
-                <lord-icon src="https://cdn.lordicon.com/amfpjnmb.json" trigger="loop" state="loop-cycle"
-                    colors="primary:#000000,secondary:#f15a2b,tertiary:#000000,quaternary:#ffc738,quinary:#000000"
-                    style="width:60px;height:60px">
-                </lord-icon>
-                <div>
-                    <p><b>Reach Airport on Selected Date</b></br>
-                    Simply arrive at the airport on your chosen date, and we'll handle the rest.</p>
-                </div>
-            </div>
-        </div>
-        <img src="./Assets/Backgrounds/Trip To Shimla.png" alt="">
-    </div>
-    <footer class="footer">
+    </main>
+
+     <footer class="footer">
         <div class="footer-container">
             <!-- Logo and Description -->
             <div class="footer-section">
@@ -401,43 +257,13 @@
         </div>
 
         <div class="footer-bottom">
-            <p>All rights reserved @Travels Vibe</p>
+            <p>All rights reserved @Travel Vibes</p>
         </div>
     </footer>
-
-
     <a href="https://wa.me/917505304952?text=Hello%20Travels%20Vibe,%20I%20visited%20your%20website" class="wa-pulse" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat">
     </a>
 
-
-    <!-- The popup form -->
-    <div class="formContainer">
-        <form id="popupForm" class="popupForm" method="POST"
-            action="https://script.google.com/macros/s/AKfycbz21mS887MyBORPUy70BlwBXceNlXLPQOeCfriMZWTXPfpJMj_02JQBamRYo6hVpyv8sQ/exec">
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="Mobile Number" required><br><br>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="Email Address" required><br><br>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="Message" required></textarea><br><br>
-
-            <button type="submit">Send Message</button>
-            <button type="button" onclick="closePopup()">Close</button>
-
-
-        </form>
-
-        <div class="loader" id="loader">
-            <div class="justify-content-center jimu-primary-loading"></div>
-        </div>
-
-    </div>
-
-
-    <script src="script.js"></script>
 </body>
 
 </html>
